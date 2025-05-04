@@ -32,7 +32,8 @@ body {
 .fv {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    row-gap: 15px;
+    /* justify-content: space-between; */
 }
 
 .resume {
@@ -176,7 +177,7 @@ body {
 
 /* Start Experience and additional info styles */
 .experiences {
-    flex: 1 1 60%;
+    flex: 0 1 60%;
     margin-right: 50px;
 }
 
@@ -269,3 +270,12 @@ body {
     color: var(--secondary-text-color);
 }
 /* End Experience and additional info styles */
+
+.webiste_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+h3 span.disclaimer{
+    font-size: 0.8em;
+}
